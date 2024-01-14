@@ -1,0 +1,14 @@
+import React from 'react'
+import Sidebar from '../Sidebar/Sidebar'
+import Topbar from '../Topbar/Topbar'
+
+const Employeedetails = (props) => {
+  return (
+    <div>
+      <div><Topbar xxx={props.checkLogout}/><Sidebar/></div>
+      <h2 className='txt'>employee details</h2>
+    </div>
+  )
+}
+
+export default Employeedetails
